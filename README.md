@@ -23,7 +23,7 @@ with the ones we've provided.
 Want to hit the ground running on training day? Great! Here's what you need to do to make sure you're all set:
 
 1. You'll need to download and install a recent version of [IntelliJ](https://www.jetbrains.com/idea/).
-2. We recommend that you [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) this repository. This will give you your own copy of the codebase to which you can commit your solutions. 
+2. We recommend that you [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) this repository. This will give you your own copy of the codebase to which you can commit your solutions. Make sure that you fork all branches (in GitHub, uncheck the checkbox "Copy the `main` branch only"), such that you will have local access to the `solutions` branch. 
 3. [Clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) your forked repository.
 
 ### Troubleshooting
