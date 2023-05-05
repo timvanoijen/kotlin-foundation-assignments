@@ -42,6 +42,8 @@ To build and test the project, simply run the following command:
 ./gradlew build
 ```
 
+(On Windows machines, you have to leave out the ```./```, so for all Gradle commands you have to invoke ```gradlew <arguments>```.)
+
 **However, there's a catch!** Running the build command on the `main` branch will result in test errors. Don't panic - this is totally normal. 
 The tests won't pass until you've completed the assignments. To make the build pass, simply exclude the tests like this:
 
