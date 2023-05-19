@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.8.0"
+    kotlin("jvm") version "1.8.21"
 }
 
 group = "nl.freshminds"
@@ -16,13 +16,13 @@ allprojects {
 
     kotlin {
         jvmToolchain {
-            languageVersion.set(JavaLanguageVersion.of("11"))
+            languageVersion.set(JavaLanguageVersion.of("17"))
         }
     }
 
     tasks {
         withType<KotlinCompile> {
-            kotlinOptions.jvmTarget = "11"
+            kotlinOptions.jvmTarget = "17"
         }
 
         getByName<Test>("test") {
@@ -31,10 +31,7 @@ allprojects {
     }
 
     dependencies {
-        implementation(kotlin("stdlib-jdk8"))
-
-        testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
-        testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
-        testImplementation(kotlin("test"))
+        testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.3")
+        testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
     }
 }

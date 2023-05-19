@@ -1,5 +1,6 @@
 ![assignments badge](https://github.com/fresh-minds/kotlin-foundation-assignments/actions/workflows/build-main.yml/badge.svg)
 ![solutions badge](https://github.com/fresh-minds/kotlin-foundation-assignments/actions/workflows/build-and-test-solutions.yml/badge.svg)
+![dependabot badge](https://badgen.net/github/dependabot/fresh-minds/kotlin-foundation-assignments)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/fresh-minds/kotlin-foundation-assignments/blob/main/LICENSE)
 
 # Kotlin Foundation Assignments
@@ -77,7 +78,4 @@ Run a single test file:
 ```
 
 ## TODO
-- [ ] Fix assert imports, only use stdlib or only use junit ones
-- [ ] Add one or 2 big assignments
-- [ ] Setup renovate/dependabot?
-- [ ] Add requirements (java 11)
+- [ ] Add requirements (java 17)
